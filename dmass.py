@@ -8,7 +8,7 @@ import colorsys
 import random
 import time
 
-client = commands.Bot(command_prefix = '+', case_insensitive=True)
+client = commands.Bot(command_prefix = '>', case_insensitive=True)
 Client = discord.client
 Clientdiscord = discord.Client()
 
@@ -17,7 +17,7 @@ async def on_ready():
     print('Logged in as '+client.user.name+' (ID:'+client.user.id+') | Connected to '+str(len(client.servers))+' servers | Connected to '+str(len(set(client.get_all_members())))+' users')
     print('--------')
     print('--------')
-    print('Created by niloj')
+    print('a y a n _')
 
 @client.command(pass_context = True)
 @commands.has_permissions(kick_members=True)     
@@ -44,4 +44,4 @@ async def send(ctx, *, content: str):
                 await client.say("DM can't Sent To : {} :x: ".format(member))
 
 
-client.run("NjA4MDcxNTEyMTg3OTk0MTQy.XXHE4w.7x4jawjHJYWctmaWbBa_5pMN484")                
+client.run("NjYyMzM2NTA3NDA2OTc1MDA3.Xg4obg.79iRFHmOYbEfRu4-ps_UcpYOXBc")                
